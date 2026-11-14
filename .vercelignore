@@ -1,0 +1,14 @@
+# Yang tidak perlu diunggah ke Vercel. Fungsi hanya butuh api/, lib/,
+# package.json, vercel.json, dan dua file data untuk dashboard.
+data/candles
+data/variants
+data/backtest
+data/forward_replay
+data/snapshots
+logs
+scripts
+dashboard
+.github
+*.md
+.env
+.env.*

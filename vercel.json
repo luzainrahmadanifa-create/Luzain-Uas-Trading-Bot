@@ -1,0 +1,20 @@
+{
+  "functions": {
+    "api/tick.js": {
+      "maxDuration": 60
+    },
+    "api/dashboard.js": {
+      "maxDuration": 20,
+      "includeFiles": [
+        "data/recomputed.json",
+        "data/freeze.json"
+      ]
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/tick",
+      "schedule": "20 3 * * *"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "uas-algo-indodax-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "UAS Algorithmic Trading - Indodax dry-run bot (long-only trend following) + backtest 3 tahun + dashboard yang bisa dihitung ulang",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "select:universe": "node scripts/select_universe.mjs",
+    "fetch:history": "node scripts/fetch_history.mjs",
+    "fetch:instruments": "node scripts/fetch_instruments.mjs",
+    "snapshot:book": "node scripts/snapshot_orderbook.mjs",
+    "measure:costs": "node scripts/measure_costs.mjs",
+    "backtest": "node scripts/backtest.mjs",
+    "variants": "node scripts/run_variants.mjs",
+    "replay:forward": "node scripts/replay_forward.mjs",
+    "recompute": "node scripts/hitung_ulang.mjs",
+    "freeze": "node scripts/freeze.mjs",
+    "dashboard": "node scripts/build_dashboard.mjs",
+    "serve:dashboard": "node scripts/serve_dashboard.mjs",
+    "serve:api": "node scripts/serve_api.mjs",
+    "export:logs": "node scripts/export_logs.mjs",
+    "record:deploy": "node scripts/record_deploy.mjs",
+    "pipeline": "node scripts/run_pipeline.mjs"
+  },
+  "dependencies": {}
+}

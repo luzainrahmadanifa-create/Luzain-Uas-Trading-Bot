@@ -1,0 +1,19 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# dependencies
+node_modules/
+
+# artefak besar (tetap ada di ZIP, tidak perlu masuk repo)
+data/variants/*/signals.csv
+
+# local runtime state (jangan pernah dikumpulkan berisi secret)
+logs/local/
+.data-local/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vercel
