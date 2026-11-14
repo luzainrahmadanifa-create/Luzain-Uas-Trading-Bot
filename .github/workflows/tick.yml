@@ -1,0 +1,45 @@
+name: tick
+
+on:
+  schedule:
+    - cron: '5 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: tick
+  cancel-in-progress: false
+
+jobs:
+  call-tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Panggil /api/tick
+        env:
+          VERCEL_URL: ${{ secrets.VERCEL_URL }}
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+        run: |
+          set -euo pipefail
+          if [ -z "${VERCEL_URL:-}" ] || [ -z "${CRON_SECRET:-}" ]; then
+            echo "::error::Secret VERCEL_URL atau CRON_SECRET belum diisi."
+            exit 1
+          fi
+          URL="https://${VERCEL_URL}/api/tick"
+          echo "Memanggil ${URL}"
+          code=$(curl -sS -o response.json -w '%{http_code}' \
+            --retry 3 --retry-delay 5 --max-time 90 \
+            -H "Authorization: Bearer ${CRON_SECRET}" \
+            "${URL}")
+          echo "HTTP ${code}"
+          cat response.json
+          if [ "${code}" != "200" ]; then
+            echo "::error::Tick gagal dengan HTTP ${code}"
+            exit 1
+          fi
+          ok=$(jq -r '.ok // empty' response.json)
+          if [ "${ok}" != "true" ]; then
+            echo "::error::Respons tick tidak ok"
+            exit 1
+          fi
+          echo "Aksi: $(jq -c '.actions // []' response.json)"
+          echo "Error: $(jq -c '.errors // []' response.json)"
