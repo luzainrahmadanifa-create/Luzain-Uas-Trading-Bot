@@ -5,10 +5,7 @@
     },
     "api/dashboard.js": {
       "maxDuration": 20,
-      "includeFiles": [
-        "data/recomputed.json",
-        "data/freeze.json"
-      ]
+      "includeFiles": "data/*.json"
     }
   },
   "crons": [
