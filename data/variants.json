@@ -1,0 +1,222 @@
+{
+  "generatedAt": "2026-11-07T04:38:38.584Z",
+  "note": "Uji ketahanan pra-freeze. Backtest berhenti sebelum freeze date 5 Nov 2026 12.00 WIB. Varian v7 dipilih dan dibekukan.",
+  "variants": [
+    {
+      "id": "v0",
+      "label": "1 jam · ATR 3 · tanpa slope",
+      "params": {
+        "timeframe": "60",
+        "tfMinutes": 60,
+        "atrMult": 3,
+        "trendSlopeBars": 0,
+        "maxPositions": 5,
+        "allocPctPerPosition": 0.2
+      },
+      "returnPct": -74.18440923049592,
+      "cagrPct": -36.32074777535315,
+      "mddPct": -79.11012484811265,
+      "trades": 2359,
+      "winRate": 23.654090716405257,
+      "profitFactor": 0.836740093532606,
+      "costSharePct": 46.88323219276431,
+      "benchmarkPct": 163.46290590579707,
+      "period": {
+        "start": "2023-11-05T04:00:00.000Z",
+        "end": "2026-11-05T03:00:00.000Z",
+        "days": 1095.96,
+        "bars": 26304,
+        "timeframe": "60"
+      }
+    },
+    {
+      "id": "v1",
+      "label": "4 jam · ATR 3 · tanpa slope",
+      "params": {
+        "timeframe": "240",
+        "tfMinutes": 240,
+        "atrMult": 3,
+        "trendSlopeBars": 0,
+        "maxPositions": 5,
+        "allocPctPerPosition": 0.2
+      },
+      "returnPct": 74.56222893674618,
+      "cagrPct": 20.40484412567489,
+      "mddPct": -45.86603127381322,
+      "trades": 566,
+      "winRate": 27.208480565371023,
+      "profitFactor": 1.1584347966560973,
+      "costSharePct": 19.148123725563504,
+      "benchmarkPct": 163.46290590579707,
+      "period": {
+        "start": "2023-11-05T04:00:00.000Z",
+        "end": "2026-11-05T00:00:00.000Z",
+        "days": 1095.83,
+        "bars": 6576,
+        "timeframe": "240"
+      }
+    },
+    {
+      "id": "v2",
+      "label": "4 jam · ATR 3 · slope 12",
+      "params": {
+        "timeframe": "240",
+        "tfMinutes": 240,
+        "atrMult": 3,
+        "trendSlopeBars": 12,
+        "maxPositions": 5,
+        "allocPctPerPosition": 0.2
+      },
+      "returnPct": 13.176330064853758,
+      "cagrPct": 4.211866168128697,
+      "mddPct": -26.721895825945563,
+      "trades": 189,
+      "winRate": 23.809523809523807,
+      "profitFactor": 1.141944665091424,
+      "costSharePct": 21.27426452279339,
+      "benchmarkPct": 163.46290590579707,
+      "period": {
+        "start": "2023-11-05T04:00:00.000Z",
+        "end": "2026-11-05T00:00:00.000Z",
+        "days": 1095.83,
+        "bars": 6576,
+        "timeframe": "240"
+      }
+    },
+    {
+      "id": "v3",
+      "label": "4 jam · ATR 4 · tanpa slope",
+      "params": {
+        "timeframe": "240",
+        "tfMinutes": 240,
+        "atrMult": 4,
+        "trendSlopeBars": 0,
+        "maxPositions": 5,
+        "allocPctPerPosition": 0.2
+      },
+      "returnPct": 77.26097518667585,
+      "cagrPct": 21.022116198309803,
+      "mddPct": -48.12455693564861,
+      "trades": 566,
+      "winRate": 25.97173144876325,
+      "profitFactor": 1.1537385291414977,
+      "costSharePct": 18.67719442373182,
+      "benchmarkPct": 163.46290590579707,
+      "period": {
+        "start": "2023-11-05T04:00:00.000Z",
+        "end": "2026-11-05T00:00:00.000Z",
+        "days": 1095.83,
+        "bars": 6576,
+        "timeframe": "240"
+      }
+    },
+    {
+      "id": "v4",
+      "label": "4 jam · ATR 4 · slope 12",
+      "params": {
+        "timeframe": "240",
+        "tfMinutes": 240,
+        "atrMult": 4,
+        "trendSlopeBars": 12,
+        "maxPositions": 5,
+        "allocPctPerPosition": 0.2
+      },
+      "returnPct": 10.451432698631033,
+      "cagrPct": 3.3687719756546164,
+      "mddPct": -28.78519303929216,
+      "trades": 189,
+      "winRate": 22.22222222222222,
+      "profitFactor": 1.1072893394204106,
+      "costSharePct": 20.865665229960026,
+      "benchmarkPct": 163.46290590579707,
+      "period": {
+        "start": "2023-11-05T04:00:00.000Z",
+        "end": "2026-11-05T00:00:00.000Z",
+        "days": 1095.83,
+        "bars": 6576,
+        "timeframe": "240"
+      }
+    },
+    {
+      "id": "v5",
+      "label": "4 jam · ATR 3 · slope 6 · maks 5 posisi",
+      "params": {
+        "timeframe": "240",
+        "tfMinutes": 240,
+        "atrMult": 3,
+        "trendSlopeBars": 6,
+        "maxPositions": 5,
+        "allocPctPerPosition": 0.2
+      },
+      "returnPct": 61.22427330398447,
+      "cagrPct": 17.256848622334697,
+      "mddPct": -29.206312490356805,
+      "trades": 258,
+      "winRate": 25.968992248062015,
+      "profitFactor": 1.3741134170954767,
+      "costSharePct": 17.89259343731947,
+      "benchmarkPct": 163.46290590579707,
+      "period": {
+        "start": "2023-11-05T04:00:00.000Z",
+        "end": "2026-11-05T00:00:00.000Z",
+        "days": 1095.83,
+        "bars": 6576,
+        "timeframe": "240"
+      }
+    },
+    {
+      "id": "v6",
+      "label": "4 jam · ATR 3 · slope 6 · maks 4 posisi",
+      "params": {
+        "timeframe": "240",
+        "tfMinutes": 240,
+        "atrMult": 3,
+        "trendSlopeBars": 6,
+        "maxPositions": 4,
+        "allocPctPerPosition": 0.2
+      },
+      "returnPct": 59.87249584079748,
+      "cagrPct": 16.928241852493,
+      "mddPct": -27.17027146352154,
+      "trades": 252,
+      "winRate": 26.190476190476193,
+      "profitFactor": 1.3835398591419055,
+      "costSharePct": 17.9357940013815,
+      "benchmarkPct": 163.46290590579707,
+      "period": {
+        "start": "2023-11-05T04:00:00.000Z",
+        "end": "2026-11-05T00:00:00.000Z",
+        "days": 1095.83,
+        "bars": 6576,
+        "timeframe": "240"
+      }
+    },
+    {
+      "id": "v7",
+      "label": "4 jam · ATR 3 · slope 6 · maks 4 posisi · 15%",
+      "params": {
+        "timeframe": "240",
+        "tfMinutes": 240,
+        "atrMult": 3,
+        "trendSlopeBars": 6,
+        "maxPositions": 4,
+        "allocPctPerPosition": 0.15
+      },
+      "returnPct": 44.748538564269126,
+      "cagrPct": 13.118592112316252,
+      "mddPct": -21.22265874004314,
+      "trades": 252,
+      "winRate": 26.190476190476193,
+      "profitFactor": 1.4227332213976462,
+      "costSharePct": 17.446330029026758,
+      "benchmarkPct": 163.46290590579707,
+      "period": {
+        "start": "2023-11-05T04:00:00.000Z",
+        "end": "2026-11-05T00:00:00.000Z",
+        "days": 1095.83,
+        "bars": 6576,
+        "timeframe": "240"
+      }
+    }
+  ]
+}

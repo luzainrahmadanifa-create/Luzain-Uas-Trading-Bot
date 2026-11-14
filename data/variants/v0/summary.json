@@ -1,0 +1,164 @@
+{
+  "engine": "backtest.mjs",
+  "generatedAt": "2026-11-07T04:35:17.026Z",
+  "strategyVersion": "1.0.0",
+  "period": {
+    "start": "2023-11-05T04:00:00.000Z",
+    "end": "2026-11-05T03:00:00.000Z",
+    "days": 1095.96,
+    "bars": 26304,
+    "timeframe": "60"
+  },
+  "universe": [
+    "BTCIDR",
+    "ETHIDR",
+    "XRPIDR",
+    "DOGEIDR",
+    "SOLIDR"
+  ],
+  "costs": {
+    "feeTakerPctPerSide": 0.2,
+    "feeSource": {
+      "apiPairs": {
+        "value": 0.2,
+        "url": "https://indodax.com/api/pairs",
+        "accessed": "2026-11-07"
+      },
+      "official": {
+        "value": 0.2,
+        "url": "https://help.indodax.com (Rincian Biaya Transaksi)",
+        "accessed": "2026-11-07"
+      },
+      "used": 0.2,
+      "note": "Dipakai angka yang lebih mahal dari kedua sumber. Fee taker all-in termasuk pajak."
+    },
+    "spreadSlippagePerPair": {
+      "BTCIDR": {
+        "spreadBps": 0.007,
+        "slippageBps": 2.07
+      },
+      "ETHIDR": {
+        "spreadBps": 2.467,
+        "slippageBps": 4.985
+      },
+      "XRPIDR": {
+        "spreadBps": 3.349,
+        "slippageBps": 2.146
+      },
+      "DOGEIDR": {
+        "spreadBps": 15.396,
+        "slippageBps": 0
+      },
+      "SOLIDR": {
+        "spreadBps": 10.49,
+        "slippageBps": 0
+      }
+    },
+    "totalFeesIdr": 144262841.2167842,
+    "totalSpreadSlipIdr": 35572967.895243265,
+    "totalCostsIdr": 179835809.11202747
+  },
+  "equity": {
+    "initial": 100000000,
+    "final": 25815590.76950408,
+    "totalReturnPct": -74.18440923049592,
+    "cagrPct": -36.32074777535315,
+    "maxDrawdownPct": -79.11012484811265,
+    "mddPeakAt": "2025-01-17T16:00:00.000Z",
+    "mddTroughAt": "2026-11-03T16:00:00.000Z"
+  },
+  "trades": {
+    "trades": 2359,
+    "wins": 558,
+    "losses": 1801,
+    "winRate": 23.654090716405257,
+    "grossProfit": 383582361.3282838,
+    "grossLoss": 458424741.79628444,
+    "netProfit": -74842380.46800065,
+    "profitFactor": 0.836740093532606,
+    "avgWin": 687423.5866098276,
+    "avgLoss": -254539.0015526288,
+    "avgWinPct": 4.239207707391045,
+    "avgLossPct": -1.6430652529404293,
+    "payoff": 2.7006611262584648,
+    "expectancy": -31726.316434083037,
+    "fees": 144262841.2167842,
+    "bestTrade": 14436193.938912867,
+    "worstTrade": -1695133.4877052933,
+    "maxConsecutiveLosses": 41,
+    "costSharePct": 46.88323219276431
+  },
+  "benchmark": {
+    "symbol": "BTCIDR",
+    "initial": 100000000,
+    "final": 263462905.9057971,
+    "returnPct": 163.46290590579707,
+    "cagrPct": 38.10619731663471,
+    "maxDrawdownPct": -49.33204108051128
+  },
+  "openPositions": [
+    {
+      "pair": "XRPIDR",
+      "qty": 217.31776472,
+      "entryPrice": 23152.8421652,
+      "entryT": 1793772000,
+      "markPrice": 23747.022895050002,
+      "unrealizedPnl": 119062.98023818774,
+      "entrySignalT": 1793768400
+    },
+    {
+      "pair": "BTCIDR",
+      "qty": 0.00356294,
+      "entryPrice": 1411182548.0415003,
+      "entryT": 1793775600,
+      "markPrice": 1460149488.9475,
+      "unrealizedPnl": 164410.3549361843,
+      "entrySignalT": 1793772000
+    },
+    {
+      "pair": "ETHIDR",
+      "qty": 0.12066166,
+      "entryPrice": 41669896.321399994,
+      "entryT": 1793775600,
+      "markPrice": 43931580.37105,
+      "unrealizedPnl": 262842.6341019566,
+      "entrySignalT": 1793772000
+    },
+    {
+      "pair": "DOGEIDR",
+      "qty": 3702.8876854200003,
+      "entryPrice": 1362.0476978000002,
+      "entryT": 1793786400,
+      "markPrice": 1394.9253592,
+      "unrealizedPnl": 111655.26822919145,
+      "entrySignalT": 1793782800
+    }
+  ],
+  "signalCounts": [
+    {
+      "pair": "BTCIDR",
+      "entries": 498,
+      "exits": 617
+    },
+    {
+      "pair": "ETHIDR",
+      "entries": 502,
+      "exits": 640
+    },
+    {
+      "pair": "XRPIDR",
+      "entries": 488,
+      "exits": 632
+    },
+    {
+      "pair": "DOGEIDR",
+      "entries": 445,
+      "exits": 584
+    },
+    {
+      "pair": "SOLIDR",
+      "entries": 460,
+      "exits": 591
+    }
+  ]
+}

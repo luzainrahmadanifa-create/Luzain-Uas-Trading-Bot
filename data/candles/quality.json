@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-11-14T03:05:32.677Z",
+  "tf": "240",
+  "from": "2023-10-15",
+  "to": "2026-11-14",
+  "quality": [
+    {
+      "symbol": "BTCIDR",
+      "count": 6757,
+      "expected": 6756,
+      "first": "2023-10-15T00:00:00.000Z",
+      "last": "2026-11-14T00:00:00.000Z",
+      "gaps": 0,
+      "zeros": 0,
+      "dupes": 0,
+      "issues": []
+    },
+    {
+      "symbol": "ETHIDR",
+      "count": 6757,
+      "expected": 6756,
+      "first": "2023-10-15T00:00:00.000Z",
+      "last": "2026-11-14T00:00:00.000Z",
+      "gaps": 0,
+      "zeros": 0,
+      "dupes": 0,
+      "issues": []
+    },
+    {
+      "symbol": "XRPIDR",
+      "count": 6757,
+      "expected": 6756,
+      "first": "2023-10-15T00:00:00.000Z",
+      "last": "2026-11-14T00:00:00.000Z",
+      "gaps": 0,
+      "zeros": 0,
+      "dupes": 0,
+      "issues": []
+    },
+    {
+      "symbol": "DOGEIDR",
+      "count": 6757,
+      "expected": 6756,
+      "first": "2023-10-15T00:00:00.000Z",
+      "last": "2026-11-14T00:00:00.000Z",
+      "gaps": 0,
+      "zeros": 0,
+      "dupes": 0,
+      "issues": []
+    },
+    {
+      "symbol": "SOLIDR",
+      "count": 6757,
+      "expected": 6756,
+      "first": "2023-10-15T00:00:00.000Z",
+      "last": "2026-11-14T00:00:00.000Z",
+      "gaps": 0,
+      "zeros": 0,
+      "dupes": 0,
+      "issues": []
+    }
+  ]
+}

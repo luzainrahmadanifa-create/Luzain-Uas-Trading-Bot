@@ -1,0 +1,227 @@
+{
+  "generatedAt": "2026-11-14T03:36:00.352Z",
+  "strategyVersion": "1.0.0",
+  "timezone": "Asia/Jakarta",
+  "backtest": {
+    "initial": 100000000,
+    "final": 144748538.56,
+    "totalReturnPct": 44.74853856,
+    "cagrPct": 13.118592111204253,
+    "mddPct": -21.222658741585832,
+    "points": 1097,
+    "days": 1095.833,
+    "start": "2023-11-05T16:00:00.000Z",
+    "end": "2026-11-05T00:00:00.000Z",
+    "trades": 252,
+    "winRate": 26.190476190476193,
+    "profitFactor": 1.4227332216882829,
+    "avgWinPct": 12.008128787878789,
+    "avgLossPct": -2.7210634408602155,
+    "avgWinIdr": 2281875.8610606054,
+    "avgLossIdr": -569114.3454301078,
+    "feesIdr": 21211884.83999999,
+    "spreadSlipIdr": 5062952.370000003,
+    "totalCostsIdr": 26274837.209999993,
+    "costSharePct": 17.446330051708962,
+    "maxConsecutiveLosses": 17,
+    "grossProfitIdr": 150603806.82999995,
+    "grossLossIdr": 105855268.25000004,
+    "sourceFiles": [
+      {
+        "path": "data/backtest/equity_daily.csv",
+        "bytes": 52447,
+        "sha256": "4d3c7c2e90b82a801de6062f15f55f52ded3665ed00b79a8f2c0c66422b4c48e"
+      },
+      {
+        "path": "data/backtest/trades.csv",
+        "bytes": 51159,
+        "sha256": "4061cbf020b0bf8863ae14f0374ae7f97e1e379485f9eb640e615dd883e19c23"
+      },
+      {
+        "path": "data/backtest/benchmark_daily.csv",
+        "bytes": 36217,
+        "sha256": "8780a52cb313c7e2676950b9e54ee529a449390505c1a23eec7c8b372110b8fa"
+      }
+    ],
+    "benchmark": {
+      "returnPct": 163.46290591,
+      "mddPct": -49.21103923833364,
+      "final": 263462905.91
+    },
+    "periodDays": 1095.83,
+    "universe": [
+      "BTCIDR",
+      "ETHIDR",
+      "XRPIDR",
+      "DOGEIDR",
+      "SOLIDR"
+    ],
+    "feeTakerPctPerSide": 0.2,
+    "spreadSlippagePerPair": {
+      "BTCIDR": {
+        "spreadBps": 0.007,
+        "slippageBps": 2.07
+      },
+      "ETHIDR": {
+        "spreadBps": 2.467,
+        "slippageBps": 4.985
+      },
+      "XRPIDR": {
+        "spreadBps": 3.349,
+        "slippageBps": 2.146
+      },
+      "DOGEIDR": {
+        "spreadBps": 15.396,
+        "slippageBps": 0
+      },
+      "SOLIDR": {
+        "spreadBps": 10.49,
+        "slippageBps": 0
+      }
+    }
+  },
+  "benchmark": {
+    "symbol": "BTCIDR",
+    "returnPct": 163.46290591,
+    "mddPct": -49.21103923833364,
+    "final": 263462905.91
+  },
+  "forward": {
+    "available": true,
+    "sourceDir": "logs/local",
+    "equity": {
+      "initial": 100000000,
+      "final": 100000000,
+      "totalReturnPct": 0,
+      "cagrPct": 0,
+      "mddPct": 0,
+      "points": 2,
+      "days": 6.955,
+      "start": "2026-11-07T04:10:58.424Z",
+      "end": "2026-11-14T03:06:16.661Z"
+    },
+    "points": 2,
+    "trades": 0,
+    "winRate": 0,
+    "profitFactor": 0,
+    "avgWinPct": 0,
+    "avgLossPct": 0,
+    "grossProfitIdr": 0,
+    "grossLossIdr": 0,
+    "feesIdr": 0,
+    "spreadSlipIdr": 0,
+    "totalCostsIdr": 0,
+    "costSharePct": null,
+    "orders": 0,
+    "buys": 0,
+    "sells": 0,
+    "openPositions": 0,
+    "calls": 3,
+    "expectedCalls": 54,
+    "uptimePct": 5.555555555555555,
+    "apiErrors": 0,
+    "killSwitchCalls": 0,
+    "firstCall": "2026-11-07T04:10:58.424Z",
+    "lastCall": "2026-11-14T03:06:16.661Z",
+    "sourceFiles": [
+      {
+        "path": "logs/local/calls.jsonl",
+        "bytes": 654,
+        "sha256": "9817b717d6bf893b764c7aba05dd9f789dacd9ef8e880c4a68b8719005dc931c"
+      },
+      {
+        "path": "logs/local/orders.jsonl",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "logs/local/equity.jsonl",
+        "bytes": 222,
+        "sha256": "4ff0d20fe3aa2a8adc04314f34282da3bd4929dad14807bba569c9b7998e736b"
+      },
+      {
+        "path": "logs/local/errors.jsonl",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  "replay": {
+    "available": true,
+    "totalReturnPct": 0,
+    "mddPct": 0,
+    "cagrPct": 0,
+    "trades": 0,
+    "winRate": 0,
+    "profitFactor": 0,
+    "avgWinPct": 0,
+    "avgLossPct": 0,
+    "costSharePct": null,
+    "benchmark": {
+      "returnPct": -15.521748670000001,
+      "mddPct": -10.583155532571805,
+      "final": 84478251.33
+    },
+    "start": "2026-11-05T16:00:00.000Z",
+    "end": "2026-11-14T00:00:00.000Z",
+    "note": "REPLAY BACKTEST jendela forward, bukan forward test live"
+  },
+  "signalMatch": {
+    "available": true,
+    "compared": 10,
+    "matched": 10,
+    "matchRatePct": 100,
+    "coveragePct": 3.7037037037037033,
+    "botSignals": 10,
+    "replaySignals": 270,
+    "mismatches": []
+  },
+  "gap": {
+    "forwardReturnPct": 0,
+    "replayReturnPct": 0,
+    "diffPct": 0,
+    "forwardTrades": 0,
+    "replayTrades": 0
+  },
+  "ops": {
+    "calls": 3,
+    "expectedCalls": 54,
+    "uptimePct": 5.555555555555555,
+    "apiErrors": 0,
+    "killSwitchCalls": 0,
+    "firstCall": "2026-11-07T04:10:58.424Z",
+    "lastCall": "2026-11-14T03:06:16.661Z"
+  },
+  "checks": [
+    {
+      "name": "Total return backtest",
+      "ok": true,
+      "note": "recomputed=44.7485 summary=44.7485"
+    },
+    {
+      "name": "CAGR backtest",
+      "ok": true,
+      "note": "recomputed=13.1186 summary=13.1186"
+    },
+    {
+      "name": "Max drawdown backtest",
+      "ok": true,
+      "note": "recomputed=-21.2227 summary=-21.2227"
+    },
+    {
+      "name": "Profit factor backtest",
+      "ok": true,
+      "note": "recomputed=1.4227 summary=1.4227"
+    },
+    {
+      "name": "Win rate backtest",
+      "ok": true,
+      "note": "recomputed=26.1905 summary=26.1905"
+    },
+    {
+      "name": "Jumlah trade backtest",
+      "ok": true,
+      "note": "recomputed=252.0000 summary=252.0000"
+    }
+  ]
+}

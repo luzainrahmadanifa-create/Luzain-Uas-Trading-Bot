@@ -1,0 +1,164 @@
+{
+  "engine": "backtest.mjs",
+  "generatedAt": "2026-11-07T04:37:55.018Z",
+  "strategyVersion": "1.0.0",
+  "period": {
+    "start": "2023-11-05T04:00:00.000Z",
+    "end": "2026-11-05T00:00:00.000Z",
+    "days": 1095.83,
+    "bars": 6576,
+    "timeframe": "240"
+  },
+  "universe": [
+    "BTCIDR",
+    "ETHIDR",
+    "XRPIDR",
+    "DOGEIDR",
+    "SOLIDR"
+  ],
+  "costs": {
+    "feeTakerPctPerSide": 0.2,
+    "feeSource": {
+      "apiPairs": {
+        "value": 0.2,
+        "url": "https://indodax.com/api/pairs",
+        "accessed": "2026-11-07"
+      },
+      "official": {
+        "value": 0.2,
+        "url": "https://help.indodax.com (Rincian Biaya Transaksi)",
+        "accessed": "2026-11-07"
+      },
+      "used": 0.2,
+      "note": "Dipakai angka yang lebih mahal dari kedua sumber. Fee taker all-in termasuk pajak."
+    },
+    "spreadSlippagePerPair": {
+      "BTCIDR": {
+        "spreadBps": 0.007,
+        "slippageBps": 2.07
+      },
+      "ETHIDR": {
+        "spreadBps": 2.467,
+        "slippageBps": 4.985
+      },
+      "XRPIDR": {
+        "spreadBps": 3.349,
+        "slippageBps": 2.146
+      },
+      "DOGEIDR": {
+        "spreadBps": 15.396,
+        "slippageBps": 0
+      },
+      "SOLIDR": {
+        "spreadBps": 10.49,
+        "slippageBps": 0
+      }
+    },
+    "totalFeesIdr": 83884243.60070306,
+    "totalSpreadSlipIdr": 20925406.5890945,
+    "totalCostsIdr": 104809650.18979757
+  },
+  "equity": {
+    "initial": 100000000,
+    "final": 177260975.18667585,
+    "totalReturnPct": 77.26097518667585,
+    "cagrPct": 21.022116198309803,
+    "maxDrawdownPct": -48.12455693564861,
+    "mddPeakAt": "2025-07-21T16:00:00.000Z",
+    "mddTroughAt": "2026-08-17T16:00:00.000Z"
+  },
+  "trades": {
+    "trades": 566,
+    "wins": 147,
+    "losses": 419,
+    "winRate": 25.97173144876325,
+    "grossProfit": 561163779.8052967,
+    "grossLoss": 486387310.14978004,
+    "netProfit": 74776469.65551662,
+    "profitFactor": 1.1537385291414977,
+    "avgWin": 3817440.6789475963,
+    "avgLoss": -1160828.9025054416,
+    "avgWinPct": 11.720171236836274,
+    "avgLossPct": -3.0405086051077475,
+    "payoff": 3.2885472361244052,
+    "expectancy": 132113.90398501125,
+    "fees": 83884243.60070306,
+    "bestTrade": 43532383.0612306,
+    "worstTrade": -7325400.222046241,
+    "maxConsecutiveLosses": 25,
+    "costSharePct": 18.67719442373182
+  },
+  "benchmark": {
+    "symbol": "BTCIDR",
+    "initial": 100000000,
+    "final": 263462905.9057971,
+    "returnPct": 163.46290590579707,
+    "cagrPct": 38.11128348999906,
+    "maxDrawdownPct": -49.211039237812315
+  },
+  "openPositions": [
+    {
+      "pair": "XRPIDR",
+      "qty": 1510.54575312,
+      "entryPrice": 23140.8375806,
+      "entryT": 1793736000,
+      "markPrice": 23747.022895050002,
+      "unrealizedPnl": 845760.064484134,
+      "entrySignalT": 1793721600
+    },
+    {
+      "pair": "ETHIDR",
+      "qty": 0.83591905,
+      "entryPrice": 41760952.90975,
+      "entryT": 1793779200,
+      "markPrice": 43931580.37105,
+      "unrealizedPnl": 1744651.2931869861,
+      "entrySignalT": 1793764800
+    },
+    {
+      "pair": "BTCIDR",
+      "qty": 0.02440074,
+      "entryPrice": 1454357498.5116003,
+      "entryT": 1793808000,
+      "markPrice": 1460149488.9475,
+      "unrealizedPnl": 70354.05433241224,
+      "entrySignalT": 1793793600
+    },
+    {
+      "pair": "DOGEIDR",
+      "qty": 25364.88005058,
+      "entryPrice": 1399.0761804,
+      "entryT": 1793808000,
+      "markPrice": 1394.9253592,
+      "unrealizedPnl": -176259.88084434293,
+      "entrySignalT": 1793793600
+    }
+  ],
+  "signalCounts": [
+    {
+      "pair": "BTCIDR",
+      "entries": 117,
+      "exits": 140
+    },
+    {
+      "pair": "ETHIDR",
+      "entries": 116,
+      "exits": 157
+    },
+    {
+      "pair": "XRPIDR",
+      "entries": 111,
+      "exits": 147
+    },
+    {
+      "pair": "DOGEIDR",
+      "entries": 114,
+      "exits": 153
+    },
+    {
+      "pair": "SOLIDR",
+      "entries": 115,
+      "exits": 149
+    }
+  ]
+}

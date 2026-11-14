@@ -1,0 +1,127 @@
+{
+  "engine": "backtest.mjs",
+  "generatedAt": "2026-11-07T04:38:30.349Z",
+  "strategyVersion": "1.0.0",
+  "period": {
+    "start": "2023-11-05T04:00:00.000Z",
+    "end": "2026-11-05T00:00:00.000Z",
+    "days": 1095.83,
+    "bars": 6576,
+    "timeframe": "240"
+  },
+  "universe": [
+    "BTCIDR",
+    "ETHIDR",
+    "XRPIDR",
+    "DOGEIDR",
+    "SOLIDR"
+  ],
+  "costs": {
+    "feeTakerPctPerSide": 0.2,
+    "feeSource": {
+      "apiPairs": {
+        "value": 0.2,
+        "url": "https://indodax.com/api/pairs",
+        "accessed": "2026-11-07"
+      },
+      "official": {
+        "value": 0.2,
+        "url": "https://help.indodax.com (Rincian Biaya Transaksi)",
+        "accessed": "2026-11-07"
+      },
+      "used": 0.2,
+      "note": "Dipakai angka yang lebih mahal dari kedua sumber. Fee taker all-in termasuk pajak."
+    },
+    "spreadSlippagePerPair": {
+      "BTCIDR": {
+        "spreadBps": 0.007,
+        "slippageBps": 2.07
+      },
+      "ETHIDR": {
+        "spreadBps": 2.467,
+        "slippageBps": 4.985
+      },
+      "XRPIDR": {
+        "spreadBps": 3.349,
+        "slippageBps": 2.146
+      },
+      "DOGEIDR": {
+        "spreadBps": 15.396,
+        "slippageBps": 0
+      },
+      "SOLIDR": {
+        "spreadBps": 10.49,
+        "slippageBps": 0
+      }
+    },
+    "totalFeesIdr": 21211884.751070864,
+    "totalSpreadSlipIdr": 5062952.428229299,
+    "totalCostsIdr": 26274837.179300163
+  },
+  "equity": {
+    "initial": 100000000,
+    "final": 144748538.56426913,
+    "totalReturnPct": 44.748538564269126,
+    "cagrPct": 13.118592112316252,
+    "maxDrawdownPct": -21.22265874004314,
+    "mddPeakAt": "2025-07-20T16:00:00.000Z",
+    "mddTroughAt": "2026-10-07T16:00:00.000Z"
+  },
+  "trades": {
+    "trades": 252,
+    "wins": 66,
+    "losses": 186,
+    "winRate": 26.190476190476193,
+    "grossProfit": 150603806.84983468,
+    "grossLoss": 105855268.28556548,
+    "netProfit": 44748538.5642692,
+    "profitFactor": 1.4227332213976462,
+    "avgWin": 2281875.8613611315,
+    "avgLoss": -569114.3456213198,
+    "avgWinPct": 12.00812467168086,
+    "avgLossPct": -2.7210630647001213,
+    "payoff": 4.009520896666094,
+    "expectancy": 177573.56573122717,
+    "fees": 21211884.751070864,
+    "bestTrade": 20266606.82896001,
+    "worstTrade": -2435806.123999954,
+    "maxConsecutiveLosses": 17,
+    "costSharePct": 17.446330029026758
+  },
+  "benchmark": {
+    "symbol": "BTCIDR",
+    "initial": 100000000,
+    "final": 263462905.9057971,
+    "returnPct": 163.46290590579707,
+    "cagrPct": 38.11128348999906,
+    "maxDrawdownPct": -49.211039237812315
+  },
+  "openPositions": [],
+  "signalCounts": [
+    {
+      "pair": "BTCIDR",
+      "entries": 60,
+      "exits": 140
+    },
+    {
+      "pair": "ETHIDR",
+      "entries": 53,
+      "exits": 157
+    },
+    {
+      "pair": "XRPIDR",
+      "entries": 52,
+      "exits": 147
+    },
+    {
+      "pair": "DOGEIDR",
+      "entries": 40,
+      "exits": 153
+    },
+    {
+      "pair": "SOLIDR",
+      "entries": 55,
+      "exits": 149
+    }
+  ]
+}

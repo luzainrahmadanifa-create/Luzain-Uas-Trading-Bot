@@ -1,0 +1,5 @@
+Ini adalah REPLAY BACKTEST pada jendela forward test, bukan forward test live.
+Dipakai sebagai pembanding sinyal candle-demi-candle terhadap log bot.
+Jendela forward: 5 Nov 2026 12.00 WIB - 19 Nov 2026 12.00 WIB.
+Periode data yang tersedia saat replay dijalankan: 2026-11-05T04:00:00.000Z .. 2026-11-14T00:00:00.000Z
+Data setelah tanggal tersebut belum ada; jalankan ulang setelah 19 Nov untuk perbandingan penuh.

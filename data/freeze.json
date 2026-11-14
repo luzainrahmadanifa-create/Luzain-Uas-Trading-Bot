@@ -1,0 +1,82 @@
+{
+  "strategyVersion": "1.0.0",
+  "frozenAt": "2026-11-05T12:00:00+07:00",
+  "frozenAtUtc": "2026-11-05T05:00:00.000Z",
+  "recordedAt": "2026-11-14T03:06:31.565Z",
+  "timezone": "Asia/Jakarta",
+  "note": "File ini adalah bukti pembekuan aturan. freeze date mengikuti jadwal PDF: 5 Nov 2026 12.00 WIB. Parameter tidak diubah selama forward test. Hash file dicatat saat file dibuat; commit git harus diisi setelah repo di-push.",
+  "integrityNote": "Pencatatan hash dilakukan pada recordedAt. Penyusunan berlangsung setelah tanggal beku resmi (keterbatasan jadwal), sehingga backtest final dipotong tepat sebelum freeze date agar data setelah freeze tidak masuk evaluasi. Eksplorasi parameter tetap melihat data hingga 7 Nov 2026; lihat refleksi.",
+  "git": {
+    "available": false,
+    "commit": null,
+    "note": "git tidak tersedia di mesin penyusunan. Ganti nilai commit dengan hasil `git rev-parse HEAD` setelah repo di-push; hash file di bawah tetap menjadi bukti isi."
+  },
+  "parameters": {
+    "timeframe": "240",
+    "tfMinutes": 240,
+    "universe": [
+      "BTCIDR",
+      "ETHIDR",
+      "XRPIDR",
+      "DOGEIDR",
+      "SOLIDR"
+    ],
+    "emaFast": 9,
+    "emaSlow": 21,
+    "emaTrend": 50,
+    "atrPeriod": 14,
+    "atrMult": 3,
+    "maxAtrPct": 0.06,
+    "trendSlopeBars": 6,
+    "minTurnover24hIdr": 250000000,
+    "startingEquityIdr": 100000000,
+    "maxPositions": 4,
+    "allocPctPerPosition": 0.15,
+    "minOrderIdr": 25000,
+    "feeTakerPctPerSide": 0.2,
+    "dailyLossLimitPct": 3,
+    "maxSpreadPct": 2
+  },
+  "files": [
+    {
+      "file": "lib/config.js",
+      "bytes": 3688,
+      "sha256": "d9af1915eb8ea054f3930990370353fa58331164f61538f9f353b8067415d3a7"
+    },
+    {
+      "file": "lib/strategy.js",
+      "bytes": 5616,
+      "sha256": "47d8c8ccd12e2b32a9430f2be7d1fe09777a23f19b50fc2427f9ec780f94172f"
+    },
+    {
+      "file": "lib/indicators.js",
+      "bytes": 2402,
+      "sha256": "1deb7f010ecbe956e8d7ce40508fe0c452dc3f1dbeda317cfd03637d4fe6413b"
+    },
+    {
+      "file": "lib/execution.js",
+      "bytes": 4337,
+      "sha256": "2298281d9740b970e785129c2e7ce892d1d676901e87560befb810bb9fbffdcd"
+    },
+    {
+      "file": "lib/risk.js",
+      "bytes": 2637,
+      "sha256": "c77393418b14cfa88ae9d5587734e736cf3a0cb7e54447374e0696fb47f5c010"
+    },
+    {
+      "file": "lib/indodax.js",
+      "bytes": 4232,
+      "sha256": "89e875cc0347d772b42ce9bc3cf893aab9e83eb7d6a36957ceaca08abbb03db5"
+    },
+    {
+      "file": "api/tick.js",
+      "bytes": 11800,
+      "sha256": "802a1d29adf30de8b60b858d40acaf929f742ddbb262f321d41e0b282e161436"
+    },
+    {
+      "file": "scripts/backtest.mjs",
+      "bytes": 15845,
+      "sha256": "d57ffbc676f5d211527985895437b54198a4c34930f00314099560e73c391371"
+    }
+  ]
+}

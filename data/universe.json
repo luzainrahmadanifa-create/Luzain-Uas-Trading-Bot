@@ -1,0 +1,223 @@
+{
+  "method": "Peringkat turnover IDR 30 hari yang berakhir 2023-11-07 (point-in-time), kandidat aset besar yang sudah ada sebelum Nov 2023. 5 teratas.",
+  "cutoff": "2023-11-07",
+  "universe": [
+    {
+      "symbol": "BTCIDR",
+      "pairId": "btcidr",
+      "label": "BTC/IDR",
+      "selection": {
+        "turnover30dIdr": 484424649064,
+        "avgDailyTurnoverIdr": 15626601583,
+        "measuredFrom": "2023-10-01",
+        "measuredTo": "2023-11-07"
+      }
+    },
+    {
+      "symbol": "ETHIDR",
+      "pairId": "ethidr",
+      "label": "ETH/IDR",
+      "selection": {
+        "turnover30dIdr": 144678137696,
+        "avgDailyTurnoverIdr": 4667036700,
+        "measuredFrom": "2023-10-01",
+        "measuredTo": "2023-11-07"
+      }
+    },
+    {
+      "symbol": "XRPIDR",
+      "pairId": "xrpidr",
+      "label": "XRP/IDR",
+      "selection": {
+        "turnover30dIdr": 119253863469,
+        "avgDailyTurnoverIdr": 3846898822,
+        "measuredFrom": "2023-10-01",
+        "measuredTo": "2023-11-07"
+      }
+    },
+    {
+      "symbol": "DOGEIDR",
+      "pairId": "dogeidr",
+      "label": "DOGE/IDR",
+      "selection": {
+        "turnover30dIdr": 65969338509,
+        "avgDailyTurnoverIdr": 2128043178,
+        "measuredFrom": "2023-10-01",
+        "measuredTo": "2023-11-07"
+      }
+    },
+    {
+      "symbol": "SOLIDR",
+      "pairId": "solidr",
+      "label": "SOL/IDR",
+      "selection": {
+        "turnover30dIdr": 36333522514,
+        "avgDailyTurnoverIdr": 1172049113,
+        "measuredFrom": "2023-10-01",
+        "measuredTo": "2023-11-07"
+      }
+    }
+  ],
+  "allCandidates": [
+    {
+      "symbol": "BTCIDR",
+      "ok": true,
+      "days": 31,
+      "coverage": 1.027,
+      "turnover30d": 484424649064,
+      "avgDailyTurnoverIdr": 15626601583,
+      "firstCandle": "2023-10-01T00:00:00.000Z",
+      "lastCandle": "2023-11-07T00:00:00.000Z"
+    },
+    {
+      "symbol": "ETHIDR",
+      "ok": true,
+      "days": 31,
+      "coverage": 1.027,
+      "turnover30d": 144678137696,
+      "avgDailyTurnoverIdr": 4667036700,
+      "firstCandle": "2023-10-01T00:00:00.000Z",
+      "lastCandle": "2023-11-07T00:00:00.000Z"
+    },
+    {
+      "symbol": "XRPIDR",
+      "ok": true,
+      "days": 31,
+      "coverage": 1.027,
+      "turnover30d": 119253863469,
+      "avgDailyTurnoverIdr": 3846898822,
+      "firstCandle": "2023-10-01T00:00:00.000Z",
+      "lastCandle": "2023-11-07T00:00:00.000Z"
+    },
+    {
+      "symbol": "SOLIDR",
+      "ok": true,
+      "days": 31,
+      "coverage": 1.027,
+      "turnover30d": 36333522514,
+      "avgDailyTurnoverIdr": 1172049113,
+      "firstCandle": "2023-10-01T00:00:00.000Z",
+      "lastCandle": "2023-11-07T00:00:00.000Z"
+    },
+    {
+      "symbol": "ADAIDR",
+      "ok": true,
+      "days": 31,
+      "coverage": 1.027,
+      "turnover30d": 30924486130,
+      "avgDailyTurnoverIdr": 997564069,
+      "firstCandle": "2023-10-01T00:00:00.000Z",
+      "lastCandle": "2023-11-07T00:00:00.000Z"
+    },
+    {
+      "symbol": "DOGEIDR",
+      "ok": true,
+      "days": 31,
+      "coverage": 1.027,
+      "turnover30d": 65969338509,
+      "avgDailyTurnoverIdr": 2128043178,
+      "firstCandle": "2023-10-01T00:00:00.000Z",
+      "lastCandle": "2023-11-07T00:00:00.000Z"
+    },
+    {
+      "symbol": "AVAXIDR",
+      "ok": true,
+      "days": 31,
+      "coverage": 1.027,
+      "turnover30d": 2435311858,
+      "avgDailyTurnoverIdr": 78558447,
+      "firstCandle": "2023-10-01T00:00:00.000Z",
+      "lastCandle": "2023-11-07T00:00:00.000Z"
+    },
+    {
+      "symbol": "LINKIDR",
+      "ok": true,
+      "days": 31,
+      "coverage": 1.027,
+      "turnover30d": 13886991405,
+      "avgDailyTurnoverIdr": 447967465,
+      "firstCandle": "2023-10-01T00:00:00.000Z",
+      "lastCandle": "2023-11-07T00:00:00.000Z"
+    },
+    {
+      "symbol": "BNBIDR",
+      "ok": true,
+      "days": 31,
+      "coverage": 1.027,
+      "turnover30d": 24189916703,
+      "avgDailyTurnoverIdr": 780319894,
+      "firstCandle": "2023-10-01T00:00:00.000Z",
+      "lastCandle": "2023-11-07T00:00:00.000Z"
+    },
+    {
+      "symbol": "TONIDR",
+      "ok": false,
+      "days": 0,
+      "coverage": 0,
+      "turnover30d": 0,
+      "avgDailyTurnoverIdr": 0,
+      "firstCandle": null,
+      "lastCandle": null
+    },
+    {
+      "symbol": "DOTIDR",
+      "ok": true,
+      "days": 31,
+      "coverage": 1.027,
+      "turnover30d": 8444018269,
+      "avgDailyTurnoverIdr": 272387686,
+      "firstCandle": "2023-10-01T00:00:00.000Z",
+      "lastCandle": "2023-11-07T00:00:00.000Z"
+    },
+    {
+      "symbol": "TRXIDR",
+      "ok": true,
+      "days": 31,
+      "coverage": 1.027,
+      "turnover30d": 31322271996,
+      "avgDailyTurnoverIdr": 1010395871,
+      "firstCandle": "2023-10-01T00:00:00.000Z",
+      "lastCandle": "2023-11-07T00:00:00.000Z"
+    },
+    {
+      "symbol": "MATICIDR",
+      "ok": true,
+      "days": 31,
+      "coverage": 1.027,
+      "turnover30d": 25802484524,
+      "avgDailyTurnoverIdr": 832338210,
+      "firstCandle": "2023-10-01T00:00:00.000Z",
+      "lastCandle": "2023-11-07T00:00:00.000Z"
+    },
+    {
+      "symbol": "ATOMIDR",
+      "ok": true,
+      "days": 31,
+      "coverage": 1.027,
+      "turnover30d": 1796721392,
+      "avgDailyTurnoverIdr": 57958755,
+      "firstCandle": "2023-10-01T00:00:00.000Z",
+      "lastCandle": "2023-11-07T00:00:00.000Z"
+    },
+    {
+      "symbol": "LTCIDR",
+      "ok": true,
+      "days": 31,
+      "coverage": 1.027,
+      "turnover30d": 10379568276,
+      "avgDailyTurnoverIdr": 334824783,
+      "firstCandle": "2023-10-01T00:00:00.000Z",
+      "lastCandle": "2023-11-07T00:00:00.000Z"
+    },
+    {
+      "symbol": "BCHIDR",
+      "ok": true,
+      "days": 31,
+      "coverage": 1.027,
+      "turnover30d": 0,
+      "avgDailyTurnoverIdr": 0,
+      "firstCandle": "2023-10-01T00:00:00.000Z",
+      "lastCandle": "2023-11-07T00:00:00.000Z"
+    }
+  ]
+}
