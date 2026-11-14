@@ -5,7 +5,7 @@
   "type": "module",
   "description": "UAS Algorithmic Trading - Indodax dry-run bot (long-only trend following) + backtest 3 tahun + dashboard yang bisa dihitung ulang",
   "engines": {
-    "node": "20.x"
+    "node": "26.x"
   },
   "scripts": {
     "select:universe": "node scripts/select_universe.mjs",
